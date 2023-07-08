@@ -2,23 +2,26 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://zhurakovska.github.io/template",
+  "homepage": "https://zhurakovska.github.io/go-it-homework",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /template/"
+    "build": "parcel build src/*.html --public-url /go-it-homework/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+    "url": "git+https://github.com/goitacademy/go-it-homework.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+    "url": "https://github.com/goitacademy/go-it-homework/issues"
   },
   "dependencies": {
-    "modern-normalize": "^1.1.0"
+    "axios": "^1.4.0",
+    "loaders": "^1.1.3",
+    "modern-normalize": "^1.1.0",
+    "slim-select": "^2.6.0"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
