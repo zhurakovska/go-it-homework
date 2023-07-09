@@ -58,6 +58,8 @@ body {
 
 .error {
     display: none;
+    font-size: 20px;
+    color: red;
 }
    
 .breed-select {
